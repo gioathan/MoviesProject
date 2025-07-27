@@ -1,0 +1,35 @@
+# CodeIgniter system and environment files
+.env
+.env.*
+/writable/*
+!/writable/index.html
+
+# Cache, logs, and session files (inside writable)
+**/writable/cache/**
+**/writable/logs/**
+**/writable/session/**
+**/writable/debugbar/**
+
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# IDEs and editors
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# VSCode
+.vscode/
+
+# PHPStorm
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# PHPUnit test result cache
+.phpunit.result.cache
