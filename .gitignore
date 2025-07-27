@@ -1,10 +1,14 @@
-# CodeIgniter system and environment files
+/vendor/
+/writable/cache/
+/writable/logs/
+/writable/session/
+/writable/debugbar/
 .env
-.env.*
+*.log
+*.bak
+*.swp
+.DS_Store
+.idea/
+.vscode/
 
-# Cache, logs, and session files (inside writable)
-**/writable/cache/**
-**/writable/logs/**
-**/writable/session/**
-**/writable/debugbar/**
 
