@@ -12,6 +12,8 @@ To create the db you need to run 'make db'
 
 Everything will be ready and you will only need to open localhost:8000.
 
+If by loading the page, this error shows up: Cache unable to write to "/var/www/html/writable/cache/".  Please run: make writable-permissions
+
 .env:
 
 CI_ENVIRONMENT = development

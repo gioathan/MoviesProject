@@ -24,3 +24,6 @@ db:
 # Check container logs
 logs:
 	docker-compose -f deploy/docker-compose.yml logs -f
+
+writable-permissions:
+	docker exec ci4_app chmod -R 0777 /var/www/html/writable
