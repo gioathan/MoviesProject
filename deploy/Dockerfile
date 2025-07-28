@@ -28,6 +28,7 @@ COPY ../ /var/www/html/
 
 # Permissions
 RUN chmod -R 755 /var/www/html \
-    && chown -R www-data:www-data /var/www/html/writable
+    && chown -R www-data:www-data /var/www/html \
+    && chmod -R 0777 /var/www/html/writable  # ← added this line for full writable access
 
 EXPOSE 80
